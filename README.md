@@ -1,6 +1,8 @@
 PM-Protokoll
 ============
 
+Nutzt die Wiki-Funktion!!!
+
 Protokolle der PM-Sitzungen
 
 Schriftführer: Markus
