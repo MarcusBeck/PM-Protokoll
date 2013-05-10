@@ -1,0 +1,124 @@
+*** Rollenverteilung
+Projektleiter: Marcus Beck (Ersatz: Manuel Matt)
+Aufgabe - Repräsentant nach außen (zB externe Treffen mit Studieren ohne Grenzen)
+
+Schriftführer: Markus Ring
+Aufgabe: Notizen der Treffen, Dropbox (?) hochladen der Notizen
+
+Moderator: Frank Schlickeisen (Ersatz: Kristian)
+Aufgabe: Struktur in unserer Kommunikation
+
+*** Regeln
+- Demokratie (Quorum, einfache, absolute Mehrheit?) - Einfache Mehrheit - Vetorecht bei eigenen Aufgaben - 
+- fixe Treffen einmal in der Woche (Dienstag 15 Uhr)
+- Klare Aufgabenverteilung (kurzfristige Ziele)
+
+*** Kommunikationsregeln
+- Reaktion auf Emails 1 Werktag
+- Hilfesuche/-stellung bei fachlichen oder zeitlichen Problemen
+- Wir wollen: Masterplan mit Mindestzielen - Schwammig für große Ziele, konkreter bei kurzfristigen
+
+*** Projektauftrag
+Fragen: Mindestziele? 
+- Zielsetzung: Forum, sortieren, suchen und Stickies
+               Cloud: Daten teilen, Cloud, Openatrium, ownCloud, Apps
+- Was für Setup haben sie? Zugriff? Open Source? Kopie machen? Open Atrium?
+  Websiteadmin? 
+  Wo machen wir ein Testsetup? 
+  Was ist Opencloud? 
+- Termine?
+- Zeit: 5h/Woche? 
+ 
+
+*** Aufgaben
+**** TODO git [/] (5*5h=25)
+      - [ ] Einarbeitung 2h Dirk + 2h (alle)
+      - [ ] Aufsetzen git-Repository 2h (eine Person)
+      - [ ] Klären wie git benutzt wird 1h (alle)
+**** TODO Lernen von Sprachen (mysql, php) (24+5*17h=109)
+      - [ ] mysql 4h Kristian + 1+2h jeder (zusammen mit phpMyAdmin)
+       - [ ] Datenbank kennenlernen 2h jeder
+      - [ ] php (8h einer + 2+3h jeder) Kristian
+        - einer bereitet ein Tutorial vor und stellt es vor
+        - gescheites php Tutorial finden 
+        - Wie man's schreibt
+        - Kommunikation zur Datenbank  
+        - Beispiele zusammenstellen 
+      - [ ] html, css, javascript (4h Marcus Beck + 1+2h jeder)
+      - [ ] Server - Apache etc (4h Marcus Beck +1+2h jeder)
+**** TODO Kennenlernen der benutzten Pakete und Infrastruktur [/] (4+4*5*3=64)
+     - [ ] phpMyAdmin Kristian - nur Bedienung
+     - [ ] openAtrium
+	 - Einarbeitung Bedienung (einer 4h)
+         - Vortrag Bedienung und Kennen lernen (alle 1+2h) 
+         - Einarbeitung Source Code & API (einer 4h)
+	 - Vortrag Source Code & API  (alle 1+2h)
+     - [ ] ownCloud - hat nur API
+	 - Einarbeitung (einer 4h)
+         - Vortrag und Kennen lernen (alle 1+2h)
+**** TODO Aufsetzen Testserver/System (5h Manuel +5*1h=10)
+     - Testserver und SOG-Openatrium-Branch und ownCloud
+     - Zugriff für alle
+     - Linux oder WIndows
+     - Mit Dirk unterhalten für den Dump und das Aufsetzen
+
+**** Informieren über weiteres (5h)
+     - ownCloud-Virenscanner?
+
+**** TODO Programmieren des Zeugs (150h)
+***** TODO Owncloud-Integration (110h)
+      - Seite mit Upload Formular [/]
+        - [ ]User-Authentifizierung (20h)
+        - [ ] Kommunikation mit openAtrium (20h)
+        - [ ] Ordner erstellen (20h)
+        - [ ] Gruppenordner erstellen, auslesen, sichtbar machen (20h)
+      - ownCloud in openAtrium 
+	- Wie funktioniert Upload bisher? (20h)
+        - ownCloud Reiter in openAtrium? (Modul) (20h) 
+	- Zugriffsberechtigung - Regeln verstärken  (20h)
+	  - Idee: Sichere Dateien in einem Ordner 
+	    - Zu jeder Datei Liste von Usern mit Zugriff (20h)
+	    - Jeder Datei braucht Besitzer (20h)
+	  - Struktur in openAtrium oder ownCloud (20h)
+***** Optional Foren-Funktionalität 
+     
+**** Management Aufgaben 
+     - Kommunikation mit Dirk
+     - Kommunikation mit Frau Mühleisen/Spreckelsen
+     - Controlling - Ziele und Zeitplan gegen erreichtes
+     - Katze auftreiben
+     - Katze repräsentieren
+     - Katze füttern 
+     - Katze zum Tierarzt bringen (impfen etc.)
+     - Katze einschläfern
+     - Gruppe über Tod der Katze informieren und trösten
+     - Katze ersetzen -> beginne von vorne
+
+**** Aufwandsschätzung: 40+109+64+150=363, 20Wochen*25h=500h
+*** Risiken
+**** hohe Kosten 
+ - Aufwand verschätzt - wöchentlichen Sitzungen - Kontrolle - regelmäßige Abschätzung gegen Realität
+ 
+ - Zu blöd - weinen - Hilfe erbitten
+**** hohes Risiko
+ - Kaffe geht aus
+ - jemand fällt aus - hoffentlich passt die SChätzung oben...
+
+
+ 
+
+
+*** Teamsitzung am Dienstag 7.5.2013 L914 15:15-17:15
+     - git Einführung von Dirk
+     - übernächste Woche (wer macht was) -> Server Marcus
+     - Dirk fragen nach Server Setup und Dump
+
+     - github Acc -> Marcus und jeder der möchte
+     - forken von Marcus
+     - 
+
+*** Teamsitzung am Mittwoch 14.5.2013 
+    - Marcus erzählt über Server
+
+
+*** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büruo Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
