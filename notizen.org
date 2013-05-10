@@ -36,6 +36,8 @@ Fragen: Mindestziele?
       - [ ] Aufsetzen git-Repository 2h (eine Person)
       - [ ] Klären wie git benutzt wird 1h (alle)
 **** TODO Lernen von Sprachen (mysql, php) (24+5*17h=109)
+      - [ ] html, css, javascript (4h Marcus Beck + 1+2h jeder)
+      - [ ] Server - Apache etc (4h Marcus Beck +1+2h jeder)
       - [ ] mysql 4h Kristian + 1+2h jeder (zusammen mit phpMyAdmin)
        - [ ] Datenbank kennenlernen 2h jeder
       - [ ] php (8h einer + 2+3h jeder) Kristian
@@ -44,8 +46,6 @@ Fragen: Mindestziele?
         - Wie man's schreibt
         - Kommunikation zur Datenbank  
         - Beispiele zusammenstellen 
-      - [ ] html, css, javascript (4h Marcus Beck + 1+2h jeder)
-      - [ ] Server - Apache etc (4h Marcus Beck +1+2h jeder)
 **** TODO Kennenlernen der benutzten Pakete und Infrastruktur [/] (4+4*5*3=64)
      - [ ] phpMyAdmin Kristian - nur Bedienung
      - [ ] openAtrium
