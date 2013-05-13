@@ -9,8 +9,8 @@ Moderator: Frank Schlickeisen (Ersatz: Kristian)
 Aufgabe: Struktur in unserer Kommunikation
 
 *** Regeln
-- Demokratie (Quorum, einfache, absolute Mehrheit?) - Einfache Mehrheit - Vetorecht bei eigenen Aufgaben - 
-- fixe Treffen einmal in der Woche (Dienstag 15 Uhr)
+- Demokratie (Quorum, einfache, absolute Mehrheit) - Einfache Mehrheit - Vetorecht bei eigenen Aufgaben - 
+- fixe Treffen einmal in der Woche (Dienstag 15 Uhr, Raumreservierung L914, 15:15-16:45, Beamer)
 - Klare Aufgabenverteilung (kurzfristige Ziele)
 
 *** Kommunikationsregeln
@@ -39,7 +39,7 @@ Fragen: Mindestziele?
       - [ ] html, css, javascript (4h Marcus Beck + 1+2h jeder)
       - [ ] Server - Apache etc (4h Marcus Beck +1+2h jeder)
       - [ ] mysql 4h Kristian + 1+2h jeder (zusammen mit phpMyAdmin)
-       - [ ] Datenbank kennenlernen 2h jeder
+        - [ ] Datenbank kennenlernen 2h jeder
       - [ ] php (8h einer + 2+3h jeder) Kristian
         - einer bereitet ein Tutorial vor und stellt es vor
         - gescheites php Tutorial finden 
@@ -98,11 +98,10 @@ Fragen: Mindestziele?
 *** Risiken
 **** hohe Kosten 
  - Aufwand verschätzt - wöchentlichen Sitzungen - Kontrolle - regelmäßige Abschätzung gegen Realität
- 
  - Zu blöd - weinen - Hilfe erbitten
 **** hohes Risiko
  - Kaffe geht aus
- - jemand fällt aus - hoffentlich passt die SChätzung oben...
+ - jemand fällt aus - hoffentlich passt die Schätzung oben...
 
 
  
