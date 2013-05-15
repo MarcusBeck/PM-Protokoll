@@ -31,7 +31,9 @@ Fragen: Mindestziele?
  
 
 *** Aufgaben
-**** TODO git [/] (5*5h=25)
+**** DONE git [/] (5*5h=25)
+     CLOSED: [2013-05-15 Wed 15:30]
+     - State "DONE"       from "TODO"       [2013-05-15 Wed 15:30]
       - [ ] Einarbeitung 2h Dirk + 2h (alle)
       - [ ] Aufsetzen git-Repository 2h (eine Person)
       - [ ] Klären wie git benutzt wird 1h (alle)
@@ -115,10 +117,58 @@ Fragen: Mindestziele?
 
      - github Acc -> Marcus und jeder der möchte
      - forken von Marcus
-     - 
 
-*** Teamsitzung am Mittwoch 14.5.2013 
+*** Teamsitzung am Mittwoch 15.5.2013 
     - Marcus erzählt über Server
 
+      Besprechung der nächsten Wochen - Verteilung php, Datenbanken, openatrium (Manuel)
+      Wie funktioniert ein Server?
+      URL wird übersetzt in IP durch DNS (Dynamic Name Server).
+      Heute installieren wir uns einen Webserver: XAMPP Paket für Apache-Server, MySQL, PHP, PEAR, Perl, phpMyAdmin. Website www.apachefriends.org
+      xampp-control startet die verschiedenen Dienste
+      Eigene IP: localhost/xampp, oder 127.0.0.1/xampp 134.34.211.216
+      Im htdocs Ordner finden sich alle von außen erreichbaren Dokumente
+      Falls man eine index.htm oder .html File in einem Ordner hat springt der Webbrowser automatisch auf diese.
+      Beispieldatei: Grundgeruest.htm - Beispiele von verschiedenen Tags
+      HTML: Tags <öffnen> </schließen>
+      Attribute von Tags <p align="center">
+      Ungeordnete und geordnete Listen
+      Tabellen - <table> <tr> <th> <td> Tags
+      Trennlinien <hr>
+     
+      CSS - Cascading Style Sheets
+      Attribut style="Definition" bei fast jedem Tag, wird in Untertags vererbt
+      Block-Elemente <div> 
+      CSS2.htm
+      Styles können auch allgemein festgelegt werden (und diese kann auch extern in einer .css file gespeichert werden) zB body { blublub } oder auch als "Variable gespeichert werden #s1 { blub }, wiederaufgrufen mit id="s1". 
+      Benutzt für div Positionierung: absolut, relativ
+
+      JavaScript.html
+      <script type="text/javascript"> danach dann javascript definition
+      function onoff(){ } Änderung von Eigenschaften von Elementen
+      <a href="javascript:onoff()">
+      Javascript wird vom Browser ausgeführt
+
+      php Formular - php wird vom Server ausgeführt und erzeugt eine HTML-Seite
+      <?php echo '<p>Hallo PHP-Welt!</p>'; ?> Gibt eine HTML-Zeile aus
+      <form action="formular2.php" method="get"> 
+      <input type="submit" value="Name!"/> Button
+      </form>
+
+      Hallo <?echo $_GET['NAME']; ?>
+      
+      Nachschlagewerk: Selfhtml de.selfhtml.org
+
+      Owncloud Installation (Seite owncloud.org)
+      Ordner entpacken und in htdocs Ordner verschieben. 
+
+      Openatrium Installation - Zip runterladen von openatrium.com, in htdocs kopieren
+      BrowserInstallation - Datenbankerstellung notwendig
+
+*** Teamsitzung am Dienstag 21.5.2013
+    - Kristian erzählt was über php
+
+*** Teamsitzung 
+    - Manuel erzählt was über Openatrium
 
 *** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büruo Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
