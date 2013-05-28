@@ -3,7 +3,7 @@ Projektleiter: Marcus Beck (Ersatz: Manuel Matt)
 Aufgabe - Repräsentant nach außen (zB externe Treffen mit Studieren ohne Grenzen)
 
 Schriftführer: Markus Ring
-Aufgabe: Notizen der Treffen, Dropbox (?) hochladen der Notizen
+Aufgabe: Notizen der Treffen, Github hochladen der Notizen
 
 Moderator: Frank Schlickeisen (Ersatz: Kristian)
 Aufgabe: Struktur in unserer Kommunikation
@@ -31,29 +31,54 @@ Fragen: Mindestziele?
  
 
 *** Aufgaben
-**** TODO git [/] (5*5h=25)
-      - [ ] Einarbeitung 2h Dirk + 2h (alle)
-      - [ ] Aufsetzen git-Repository 2h (eine Person)
-      - [ ] Klären wie git benutzt wird 1h (alle)
+**** DONE git [3/3] (5*5h=25)
+     CLOSED: [2013-05-15 Wed 15:30]
+     - State "DONE"       from "TODO"       [2013-05-15 Wed 15:30]
+***** DONE Einarbeitung 2h Dirk + 2h (alle)
+      CLOSED: [2013-05-21 Tue 15:42]
+      - State "DONE"       from "TODO"       [2013-05-21 Tue 15:42]
+***** DONE Aufsetzen git-Repository 2h (eine Person)
+      CLOSED: [2013-05-21 Tue 15:42]
+      - State "DONE"       from "TODO"       [2013-05-21 Tue 15:42]
+***** DONE Klären wie git benutzt wird 1h (alle)
+      CLOSED: [2013-05-21 Tue 15:42]
+      - State "DONE"       from "TODO"       [2013-05-21 Tue 15:42]
 **** TODO Lernen von Sprachen (mysql, php) (24+5*17h=109)
+<<<<<<< HEAD
       - [ ] html, css, javascript (4h Marcus Beck + 1+2h jeder)
       - [ ] Server - Apache etc (4h Marcus Beck +1+2h jeder)
       - [ ] mysql 4h Kristian + 1+2h jeder (zusammen mit phpMyAdmin)
         - [ ] Datenbank kennenlernen 2h jeder
       - [ ] php (8h einer + 2+3h jeder) Kristian
+=======
+***** TODO mysql 4h Kristian + 1+2h jeder (zusammen mit phpMyAdmin)
+****** TODO Datenbank kennenlernen 2h jeder
+***** DONE php (8h einer + 2+3h jeder) Kristian
+      CLOSED: [2013-05-28 Tue 16:25]
+      - State "DONE"       from "TODO"       [2013-05-28 Tue 16:25]
+>>>>>>> 61e445780fa3031cdedc20cf87f1cfd2990f89f9
         - einer bereitet ein Tutorial vor und stellt es vor
         - gescheites php Tutorial finden 
         - Wie man's schreibt
         - Kommunikation zur Datenbank  
         - Beispiele zusammenstellen 
+<<<<<<< HEAD
+=======
+***** DONE html, css, javascript (4h Marcus Beck + 1+2h jeder)
+      CLOSED: [2013-05-21 Tue 15:41]
+      - State "DONE"       from "TODO"       [2013-05-21 Tue 15:41]
+***** DONE Server - Apache etc (4h Marcus Beck +1+2h jeder)
+      CLOSED: [2013-05-21 Tue 15:41]
+      - State "DONE"       from "TODO"       [2013-05-21 Tue 15:41]
+>>>>>>> 61e445780fa3031cdedc20cf87f1cfd2990f89f9
 **** TODO Kennenlernen der benutzten Pakete und Infrastruktur [/] (4+4*5*3=64)
-     - [ ] phpMyAdmin Kristian - nur Bedienung
-     - [ ] openAtrium
+***** TODO phpMyAdmin Kristian - nur Bedienung
+***** TODO openAtrium
 	 - Einarbeitung Bedienung (einer 4h)
          - Vortrag Bedienung und Kennen lernen (alle 1+2h) 
          - Einarbeitung Source Code & API (einer 4h)
 	 - Vortrag Source Code & API  (alle 1+2h)
-     - [ ] ownCloud - hat nur API
+***** TODO ownCloud - hat nur API
 	 - Einarbeitung (einer 4h)
          - Vortrag und Kennen lernen (alle 1+2h)
 **** TODO Aufsetzen Testserver/System (5h Manuel +5*1h=10)
@@ -111,13 +136,97 @@ Fragen: Mindestziele?
      - git Einführung von Dirk
      - übernächste Woche (wer macht was) -> Server Marcus
      - Dirk fragen nach Server Setup und Dump
-
      - github Acc -> Marcus und jeder der möchte
      - forken von Marcus
-     - 
-
-*** Teamsitzung am Mittwoch 14.5.2013 
+*** Teamsitzung am Mittwoch 15.5.2013 
     - Marcus erzählt über Server
 
+      Besprechung der nächsten Wochen - Verteilung php, Datenbanken, openatrium (Manuel)
+      Wie funktioniert ein Server?
+      URL wird übersetzt in IP durch DNS (Dynamic Name Server).
+      Heute installieren wir uns einen Webserver: XAMPP Paket für Apache-Server, MySQL, PHP, PEAR, Perl, phpMyAdmin. Website www.apachefriends.org
+      xampp-control startet die verschiedenen Dienste
+      Eigene IP: localhost/xampp, oder 127.0.0.1/xampp 134.34.211.216
+      Im htdocs Ordner finden sich alle von außen erreichbaren Dokumente
+      Falls man eine index.htm oder .html File in einem Ordner hat springt der Webbrowser automatisch auf diese.
+      Beispieldatei: Grundgeruest.htm - Beispiele von verschiedenen Tags
+      HTML: Tags <öffnen> </schließen>
+      Attribute von Tags <p align="center">
+      Ungeordnete und geordnete Listen
+      Tabellen - <table> <tr> <th> <td> Tags
+      Trennlinien <hr>
+     
+      CSS - Cascading Style Sheets
+      Attribut style="Definition" bei fast jedem Tag, wird in Untertags vererbt
+      Block-Elemente <div> 
+      CSS2.htm
+      Styles können auch allgemein festgelegt werden (und diese kann auch extern in einer .css file gespeichert werden) zB body { blublub } oder auch als "Variable gespeichert werden #s1 { blub }, wiederaufgrufen mit id="s1". 
+      Benutzt für div Positionierung: absolut, relativ
 
-*** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büruo Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
+      JavaScript.html
+      <script type="text/javascript"> danach dann javascript definition
+      function onoff(){ } Änderung von Eigenschaften von Elementen
+      <a href="javascript:onoff()">
+      Javascript wird vom Browser ausgeführt
+
+      php Formular - php wird vom Server ausgeführt und erzeugt eine HTML-Seite
+      <?php echo '<p>Hallo PHP-Welt!</p>'; ?> Gibt eine HTML-Zeile aus
+      <form action="formular2.php" method="get"> 
+      <input type="submit" value="Name!"/> Button
+      </form>
+
+      Hallo <?echo $_GET['NAME']; ?>
+      
+      Nachschlagewerk: Selfhtml de.selfhtml.org
+
+      Owncloud Installation (Seite owncloud.org)
+      Ordner entpacken und in htdocs Ordner verschieben. 
+
+      Openatrium Installation - Zip runterladen von openatrium.com, in htdocs kopieren
+      BrowserInstallation - Datenbankerstellung notwendig
+
+*** Teamsitzung am Dienstag 21.5.2013
+    - Kristian erzählt was über php (doch nicht - verschoben auf nächste Woche)
+    - Unterhaltung über Planung, Ordnung der Vorträge
+    - git Unterhaltung - 
+    - Manuel liest: ownCload Administrator's Manual - Release 5.0    
+    - Tutorialspoint.com - PHP-Tutorial  Simply easy learning
+    - Wir machen alle nichts bis zum nächsten Mal. 
+*** Teamsitzung 28.5.2013
+    (- Manuel erzählt was über Openatrium - verschoben auf nächste Woche)
+    - L914
+    - Kristian erzählt etwas über php, mysql - Korrektur: Nur php
+    - php-Einbindung in html: Hello World - Beispiel 
+      <?php
+      echo "Hello World!";
+      ?>
+    - Client - HTML, CSS, Javascript
+      Server - PHP, mysql
+      Auf Anfrage des Clients führt der Server die PHP-Datei aus und schickt die entstehende HTML-Ausgabe zurück. Der PHP-Code wird nicht mitgeschickt.
+    - Kommentare in php // /* */, diese werden auch nicht mitgeschickt.
+    - Variablen: $name = Wert - keine Typinitialisierung. Ausgabe mit Verknüpfung mit . . " verhindern nicht Variablenersetzung, ' schon. Escape-Sequencen funktionieren ebenfalls in ", aber nicht in ' - diese sind aber nur im Quelltext, nicht unbedingt im HTML-Dokument.
+    - http://www.w3schools.com/php/php_operatos.asp - Operatorenliste, Arithmetik, Vergleich und Arrays
+    - if, else if - date(argument) gibt Zeit zurück im im Argument spezifiezierten Format.
+    - selfphp.info Befehlsreferenz
+    - switch - case 
+    - Arrays - Indiziert und assoziiert. Indiziert wie in C $array[0]. Assoziiert wie hashtables, Key-Value-Pairs $age[Key]
+    - Schleifen, while do while und for. foreach loop für Arrays (iteriert automatisch durch diese durch) foreach $x as $value
+    - function add($x, $y){ $total=$x+$y; return $total;}
+    - Formulare: <  method=get> schreibt die Werte in die Adressleiste.
+      < method=post> für sicherere und längere Eingaben
+    - get mit php auslesen $_GET[name]
+    - post mit php auslesen $_POST[name]
+    - Andere Dateien einbinden: include(name) zeigt Fehler and, require(name) gibt Fehler aus, require_once(name) bindet nur einmal ein. 
+    - e.g. header.php, footer.php
+    - File-I/O - $file=fopen(filename, Modus) , fgets, fclose
+    - Datei Hochladen method="post" enctype="multi "
+    - Beispiele aus http://www.w3schools/php/
+    - Was ist ein Cookie? Kleine Textdatei auf der Clientseite.
+    - Was ist eine Session? Kleine Textdatei auf der Serverseite - speichert wichtige Daten für eine einzelne Verbindung. 
+*** Teamsitzung 4.6.2013
+    (- Manuel erzählt was über Opencloud - verschoben auf nächste Woche)
+    - Kristian erzählt was über phpmyadmin, mysql und ihre Verbindung, bisschen Aufbau von Datenbanken
+
+*** Teamsitzung 11.6.2013    
+    - Manuel erzählt was über Opencloud
+*** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büro Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
