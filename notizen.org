@@ -69,10 +69,18 @@ Fragen: Mindestziele?
       - State "DONE"       from "TODO"       [2013-05-21 Tue 15:41]
 ***** DONE Server - Apache etc (4h Marcus Beck +1+2h jeder)
       CLOSED: [2013-05-21 Tue 15:41]
+
+**** TODO Kennenlernen der benutzten Pakete und Infrastruktur [1/3] (4+4*5*3=64)
       - State "DONE"       from "TODO"       [2013-05-21 Tue 15:41]
+<<<<<<< HEAD
 >>>>>>> 61e445780fa3031cdedc20cf87f1cfd2990f89f9
 **** TODO Kennenlernen der benutzten Pakete und Infrastruktur [/] (4+4*5*3=64)
 ***** TODO phpMyAdmin Kristian - nur Bedienung
+=======
+***** DONE phpMyAdmin Kristian - nur Bedienung
+      CLOSED: [2013-06-11 Tue 15:26]
+      - State "DONE"       from "TODO"       [2013-06-11 Tue 15:26]
+>>>>>>> 4e9639c5834732b6dd308dfa68b635af63c6dcc5
 ***** TODO openAtrium
 	 - Einarbeitung Bedienung (einer 4h)
          - Vortrag Bedienung und Kennen lernen (alle 1+2h) 
@@ -189,7 +197,7 @@ Fragen: Mindestziele?
     - Kristian erzählt was über php (doch nicht - verschoben auf nächste Woche)
     - Unterhaltung über Planung, Ordnung der Vorträge
     - git Unterhaltung - 
-    - Manuel liest: ownCload Administrator's Manual - Release 5.0    
+    - Manuel liest: ownCloud Administrator's Manual - Release 5.0    
     - Tutorialspoint.com - PHP-Tutorial  Simply easy learning
     - Wir machen alle nichts bis zum nächsten Mal. 
 *** Teamsitzung 28.5.2013
@@ -224,9 +232,47 @@ Fragen: Mindestziele?
     - Was ist ein Cookie? Kleine Textdatei auf der Clientseite.
     - Was ist eine Session? Kleine Textdatei auf der Serverseite - speichert wichtige Daten für eine einzelne Verbindung. 
 *** Teamsitzung 4.6.2013
-    (- Manuel erzählt was über Opencloud - verschoben auf nächste Woche)
+    (- Manuel erzählt was über Owncloud - verschoben auf nächste Woche)
     - Kristian erzählt was über phpmyadmin, mysql und ihre Verbindung, bisschen Aufbau von Datenbanken
-
+    - Zuerst phpmyadmin - Damit verwaltet man Datenbanken, kann anschauen und erstellen. mysql ist die querysprache für die Datenbank. phpmyadmin ist ein Browser-Frontend dafür. Eine Datenbank ist in Tabellen organisiert. Jede Tabelle hat Spalten in denen die Datensätze drin stehen. Jede Spalte hat einen Namen und einen Datentyp, sowie eine Länge/Wert. Wir wollen die SQL-Anfragen mit php anlegen.
+    - Datentypen: Text, LONGTEXT, ENUM, SET, BLOBs (werden binär gespeichert - Binary Large Object), Zahlen (float, int, usw), Zeiten (DATE, DATETIME, TIMESTAMP)
+    - mysql01.php - Wie verbinde ich vom php aus zur Datenbank?
+      $con = mysqli_connect("localhost","root","","PM");
+      if(mysqli_connect_errno($con))
+    - mysql02.php - Wie erzeuge ich eine neue Datenbank?
+      mysqli_query($con, "CREATE DATABASE test_db") hier macht der Unterstrich seltsame Effekte
+    - mysql03.php - erstellen einer Tabelle in der DB
+      $sql = "CREATE TABLE persons(ID INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(ID), FirstName CHAR(30), LastName CHAR(30), Age INT)";
+      mysqli_query($con, $sql) - ID ist eindeutige ID, yay
+    - mysql04.php - Einfügen von Datensätzen
+      mysqli_query($con, "INSERT INTO Persons(FirstName, LastName, Age) VALUES ('Frank', ...) 
+      Geht auch relativ direkt aus einem Formular. $_POST[lastname] $_GET[lastname] etc.
+    -  mysql05.php - Einträge abrufen
+       $result = mysqli_query($con, "SELECT * FROM Persons"); Holt alles aus Personen
+       $row =mysqli_fetch_array($result) Liste eine Zeile=einen Eintrag aus der vom SELECT-query erstellen Tabelle
+       $row['FirstName']
+       "SELECT * FROM Persons WHERE Age=30" - holt die Einträge von Personen mit dem entsprechendem Alter...mit AND, OR, || usw kann man diese Bedingungen verknüpfen
+    - mysql06.php - Datensätze ändern
+      Mit "UPDATE " und "DELETE FROM Persons WHERE LastName='Name');
+    - SQL Operationen - zB Sortieren, Umbenennen, Increment ändern, Verschieben, Löschen
+    - Dumps - Man kann eine komplette Datenbank exportieren und wieder importieren. 
 *** Teamsitzung 11.6.2013    
-    - Manuel erzählt was über Opencloud
+    - Manuel erzählt was über owncloud
+    - Account von Dirk bekommen? xampp->htdocs hier sind die owncloud und openatrium ordnern
+    - Eigene openatrium module sollten in openatrium /sites/all abgelegt werden
+    - Man könnte die Owncloud Funktionalität relativ einfach und vllt sogar schneller in php selber machen. Werden gewisse Owncloud Funktionalitäten gebraucht.
+    - Gruppen existieren Openatrium. AUch in owncloud?
+    - Was ist Owncloud? - Erstmal ein Ordner in htdocs
+    - Erster Start frägt nach Admin-Acc und Passwort. Dann ist man in der Owncloud-Oberfläche. 
+    - Gruppen existieren und funktionieren. 
+    - Dateien werden komplett unverschlüsselt gespeichert. 
+    - Apptutorial, Marcus hat ein App-Gerüst für die Benutzerauthentifizierung gefunden. 553 Zeilen in dem App, usersql App. 
+    - Was ist ein cron-job? Ein Job der alle [Zeitintervall] ausgeführt wird, richtiger Systemdienst. Webcron ist eine Webversion, Gegenstück: Ajax, wird bei jeder geladenen Seite ausgeführt. 
+    - Apps für opencloud funktioniert, wenn man sie einfach in den Webordner kopiert und dann als admin in owncloud aktiviert. 
+    - Mal mit der schon vorhandenen Datenbank probieren.
+    - Aufgabe: Das App-Gerüst für Openatrium konfigurieren. 
+*** Teamsitzung 18.6.2013
+    
+*** Teamsitzung 25.6.2013
+*** Teams
 *** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büro Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
