@@ -257,7 +257,25 @@ Fragen: Mindestziele?
     - Mal mit der schon vorhandenen Datenbank probieren.
     - Aufgabe: Das App-Gerüst für Openatrium konfigurieren. 
 *** Teamsitzung 18.6.2013
-    
+    - Frank erzählt: Geschichten über Openatrium - Mein Leben mit ...
+    - Vielleicht SQL-Dump importieren
+    - Community.openatrium.com Documentation
+    - Openatrium - hat auch Gruppen, Admins usw usf
+    - Dashboard kann man als User erstellen 
+    - Importieren des Dumps: Mit phpmyadmin scheint es erstmal nicht zu gehen, da die Dateigroesse zu groß ist. mysql.exe -u root -p oa_sog
+    Planung für die Zukunft
+    Was getan werden muss: 
+    - Openatrium 
+     - HelloWorld Feature/Modul einfach mal programmieren - also ein Button der Hallo Welt ausgibt, an den wir dann später Owncloud-Interface dranhängen können. Wird von Frank gemacht. 
+     - Wo ist momentane Userauthentifizierung abgelegt und wie kommt man dort ran? (Frank)
+    - ownCloud: 
+     - Zugriff auf openAtrium-mysql Datenbank - use_sql App (Manuel) 
+     - openAtrium-Zugriff auf ownCloud 
+       - Upload durch externe Funktionalitäten  (Marcus)
+       - Auflisten von Dateien - owncloud hat files app (Marcus)
+       - Einloggen durch externe Programme (Kristian)
 *** Teamsitzung 25.6.2013
+    - Erfahrungsberichte austauschen, Detailplanung
+    
 *** Teams
 *** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büro Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
