@@ -269,13 +269,24 @@ Fragen: Mindestziele?
      - HelloWorld Feature/Modul einfach mal programmieren - also ein Button der Hallo Welt ausgibt, an den wir dann später Owncloud-Interface dranhängen können. Wird von Frank gemacht. 
      - Wo ist momentane Userauthentifizierung abgelegt und wie kommt man dort ran? (Frank)
     - ownCloud: 
-     - Zugriff auf openAtrium-mysql Datenbank - use_sql App (Manuel) 
+     - Zugriff auf openAtrium-mysql Datenbank - user_sql App (Manuel) 
      - openAtrium-Zugriff auf ownCloud 
        - Upload durch externe Funktionalitäten  (Marcus)
        - Auflisten von Dateien - owncloud hat files app (Marcus)
        - Einloggen durch externe Programme (Kristian)
 *** Teamsitzung 25.6.2013
     - Erfahrungsberichte austauschen, Detailplanung
-    
+    - Projektende: 30.9. 
+    - Openatrium Installation funktioniert nicht bei Frank und Kristian - Plan: Umgehung mit Installation auf USB-Stick. 
+    - Kristian: Einloggen funktioniert. php-Skript, welches es als Post an die Seite gibt. POST geht, GET hätte das Problem, dass das Passwort sichtbar ist. Es gäbe auch einen Weg über Sessions und Cookies, aber wir verstehen die Cookies nicht so ganz. 
+    - Wir möchten nicht direkt von Openatrium auf eine separate ownCloud-Seite, sondern es irgendwie einbetten. 
+    - Marcus: Behandlung der Authentifizierungsdatenbank: Beispiel-Apps auf github: user_otp, user_redmine_ex, CloudPress (Dokumentation auf französisch) wäre ein Beispiel für die Verknüpfung von ownCloud mit Wordpress.
+      Hello-Word App in ownCloud
+      ownCloud Share API sollte die Kommunikation von außen nach ownCloud erlauben. zB remote.php erlaubt direkten Zugriff auf ownCloud apps. 
+    - Frank: In Openatrium kann man als Administrator sehr viel machen - auch komplette Features einbinden. Beispiel einer module-Einbindung durch Kopieren des passenden Ordners etc. ...wir haben allerdings keine Ahnung wie wir das benutzen.  
+    - Weitere Planung: Userauthentifizierung weiter machen. Kristian und Marcus schauen wie man mit remote.php weiter macht.
+      Dump einbauen 
+*** Teamsitzung 2.7.2013
+    Erfahrungsberechte austauschen, weitermachen
 *** Teams
 *** Projektabschlusssitzung - Dienstag 16.7. 16:00 Büro Spreckelsen, Blarerstrasse 46 Technologiezentrum, blaues Gebäude. 
